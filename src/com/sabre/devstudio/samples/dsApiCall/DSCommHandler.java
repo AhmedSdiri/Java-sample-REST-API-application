@@ -51,7 +51,7 @@ public class DSCommHandler {
 		
 		try {
 				
-			URL urlConn = new URL(apiEndPoint + "/v1/auth/token");
+			URL urlConn = new URL(apiEndPoint + "/v2/auth/token");
 			URLConnection conn=urlConn.openConnection();
 			
 			conn.setDoInput(true);
